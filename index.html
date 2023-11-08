@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="Assessment of countermovement jump with and without arm swing using a single inertial measurement unit">
+  <meta name="description" content="Feasibility of leveraging large IMU datasets to enhance the accuracy and data efficiency of biomechanical parameters">
   <meta property="og:title" content="R. Fathian et al. 2023"/>
-  <meta property="og:description" content="Estimating jump height and temporal parameters using a sacrum mounted IMU"/>
+  <meta property="og:description" content="Foundation Model for IMU data"/>
   <meta property="og:url" content="https://www.raminfathian.com"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/IMU for Countermovement Jump.jpg" />
@@ -15,7 +15,7 @@
 
 
   <meta name="twitter:title" content="R. Fathian et al. 2023">
-  <meta name="twitter:description" content="Assessment of countermovement jump with and without arm swing using a single inertial measurement unit">
+  <meta name="twitter:description" content="Feasibility of leveraging large IMU datasets to enhance the accuracy and data efficiency of biomechanical parameters">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/IMU for Countermovement Jump.jpg">
   <meta name="twitter:card" content="Sequence of Countermovement Jump">
@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Assessment of Countermovement Jump Using IMU</title>
+  <title>Foundation Model for IMU data</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -88,7 +88,7 @@
 
             <!-- Github link -->
             <span class="link-block">
-              <a href="https://github.com/Rfathian/IMU-Countermovement-Jump/tree/master" target="_blank"
+              <a href="https://github.com/Rfathian/IMU-NET/tree/master" target="_blank"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fab fa-github"></i>
@@ -99,7 +99,7 @@
 
           <!-- Dataset link -->
           <span class="link-block">
-            <a href="https://github.com/Rfathian/IMU-Countermovement-Jump/tree/master/Dataset" target="_blank"
+            <a href="https://github.com/Rfathian/IMU-NET/tree/master/Dataset" target="_blank"
             class="external-link button is-normal is-rounded is-dark">
             <span class="icon">
               <i class="fas fa-database"></i>
@@ -112,97 +112,3 @@
   </div>
 </div>
 </section>
-
-<!-- Start new video section -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <figure class="image">
-          <video autoplay loop muted>
-            <source src="static/images/countermovement jump.mov" type="video/mp4">
-            Your browser does not support HTML5 video.
-          </video>
-          <figcaption style="font-size: 14px;">
-            <span style="color: black;">&#9733;</span> represent anatomical landmarks
-          </figcaption>
-          <figcaption style="font-size: 14px;">
-            <span style="color: black;">&#9679;</span> represent the center of mass for each segment
-          <figcaption style="font-size: 14px;">
-             lines represent segments
-          </figcaption>
-          <figcaption style="font-size: 14px;">during countermovement jumping</figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End new video section -->
-  
-<!-- Start new image section -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <figure class="image">
-          <img src="static/images/IMU for Countermovement Jump.jpg" alt="YOUR_IMAGE_DESCRIPTION" style="object-fit: cover;">
-          <figcaption style="font-size: 14px;">Sequence of countermovement jump</figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End new image section -->
-
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            The countermovement vertical jump height, flight time, and jump duration are used to assess athletic performance. Force-plate and motion-capture cameras are used to estimate these parameters, yet, their application is limited to dedicated lab environments. Despite the potential of inertial measurement units (IMU) for estimating the jump height, their accuracy has not been validated. This study investigates the accuracy of our proposed method to estimate the jump height using a sacrum-mounted IMU, during countermovement jumping. Eleven individuals performed four jumps each. To obtain the jump height, we transformed the IMU readouts into anatomical planes, and double-integrated the vertical acceleration after correction for zero velocity and vertical displacement. The accuracy of jump height obtained by IMU was compared to force-plate and motion-capture cameras during jumps without arm swing (mean error (standard deviation) of 0.3(2.2) cm and 1.0(3.0) cm, and correlation coefficient of 0.83 and 0.82, respectively) and during jumps with arm swing (-1.1(2.1) cm and 0.5(1.9) cm, and 0.92 and 0.89). The correlation coefficients were high, and the errors were comparable to the difference between the jump height obtained by force-plate and cameras. Therefore, a sacrum-mounted IMU can be recommended for in-field assessment of countermovement jump with and without arm swing.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-<!-- Start new image section -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <h2 class="title is-3">Dataset Information</h2>
-        <figure class="image">
-          <img src="static/images/Countermovement Jump and IMU readouts.jpg" alt="YOUR_IMAGE_DESCRIPTION" style="object-fit: contain;">
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End new image section -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>Fathian, Ramin, et al. "Assessment of countermovement jump with and without arm swing using a single inertial measurement unit." Sports Biomechanics (2022): 1-18.</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
